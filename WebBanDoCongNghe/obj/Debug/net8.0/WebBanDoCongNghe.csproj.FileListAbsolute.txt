@@ -1,0 +1,459 @@
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\appsettings.Development.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\appsettings.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.exe
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.deps.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.runtimeconfig.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.pdb
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Azure.Core.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Azure.Identity.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Memory.Data.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.AssemblyReference.cache
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.AssemblyInfoInputs.cache
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.AssemblyInfo.cs
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.CoreCompileInputs.cache
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.MvcApplicationPartsAssemblyInfo.cs
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.MvcApplicationPartsAssemblyInfo.cache
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.sourcelink.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.build.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.development.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.WebBanDoCongNghe.Microsoft.AspNetCore.StaticWebAssets.props
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.build.WebBanDoCongNghe.props
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebBanDoCongNghe.props
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebBanDoCongNghe.props
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.pack.json
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\scopedcss\bundle\WebBanDoCongNghe.styles.css
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDo.D8B923F0.Up2Date
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\refint\WebBanDoCongNghe.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.pdb
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.genruntimeconfig.cache
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\ref\WebBanDoCongNghe.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Humanizer.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.CodeDom.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\UDC\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\appsettings.Development.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\appsettings.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.exe
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.deps.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.runtimeconfig.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.pdb
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Azure.Core.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Azure.Identity.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Humanizer.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.CodeDom.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.AssemblyReference.cache
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.AssemblyInfoInputs.cache
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.AssemblyInfo.cs
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.CoreCompileInputs.cache
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.MvcApplicationPartsAssemblyInfo.cs
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.MvcApplicationPartsAssemblyInfo.cache
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.sourcelink.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.build.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.development.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.WebBanDoCongNghe.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.build.WebBanDoCongNghe.props
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebBanDoCongNghe.props
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebBanDoCongNghe.props
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\scopedcss\bundle\WebBanDoCongNghe.styles.css
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.CopyComplete
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\refint\WebBanDoCongNghe.dll
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.pdb
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.genruntimeconfig.cache
+D:\Code\Đồ án\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\ref\WebBanDoCongNghe.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\appsettings.Development.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\appsettings.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.exe
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.deps.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.runtimeconfig.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\WebBanDoCongNghe.pdb
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Azure.Core.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Azure.Identity.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Humanizer.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.CodeDom.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Memory.Data.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.AssemblyReference.cache
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.AssemblyInfoInputs.cache
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.AssemblyInfo.cs
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.CoreCompileInputs.cache
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.MvcApplicationPartsAssemblyInfo.cs
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.MvcApplicationPartsAssemblyInfo.cache
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.sourcelink.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.build.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.development.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.WebBanDoCongNghe.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.build.WebBanDoCongNghe.props
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebBanDoCongNghe.props
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebBanDoCongNghe.props
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\staticwebassets.pack.json
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\scopedcss\bundle\WebBanDoCongNghe.styles.css
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.csproj.CopyComplete
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\refint\WebBanDoCongNghe.dll
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.pdb
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\WebBanDoCongNghe.genruntimeconfig.cache
+D:\.Net\WebBanDoCongNghe\WebBanDoCongNghe\obj\Debug\net8.0\ref\WebBanDoCongNghe.dll

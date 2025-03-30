@@ -1,0 +1,35 @@
+.productDetail {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .productInfo {
+    flex: 1;
+    padding-left: 20px;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .productTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .productPrice {
+    font-size: 2rem;
+    color: #d9534f; /* màu đỏ */
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .productLocation {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }

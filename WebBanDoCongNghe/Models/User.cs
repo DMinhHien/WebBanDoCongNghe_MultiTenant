@@ -8,5 +8,6 @@ namespace WebBanDoCongNghe.Models
         public DateTime? birthDate { get; set; }
         public string? Address { get; set; }
         public string AccountName { get; set; }
+        public string TenantId { get; set; }
     }
 }

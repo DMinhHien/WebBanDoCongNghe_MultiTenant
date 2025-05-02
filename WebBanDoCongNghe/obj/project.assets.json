@@ -4544,19 +4544,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duong\\.nuget\\packages\\": {}
+    "C:\\Users\\duong\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UDC\\WebBanDoCongNghe\\WebBanDoCongNghe\\WebBanDoCongNghe.csproj",
+      "projectUniqueName": "D:\\UDC\\WebBanDoCongNghe_MultiTenant\\WebBanDoCongNghe\\WebBanDoCongNghe.csproj",
       "projectName": "WebBanDoCongNghe",
-      "projectPath": "D:\\UDC\\WebBanDoCongNghe\\WebBanDoCongNghe\\WebBanDoCongNghe.csproj",
+      "projectPath": "D:\\UDC\\WebBanDoCongNghe_MultiTenant\\WebBanDoCongNghe\\WebBanDoCongNghe.csproj",
       "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-      "outputPath": "D:\\UDC\\WebBanDoCongNghe\\WebBanDoCongNghe\\obj\\",
+      "outputPath": "D:\\UDC\\WebBanDoCongNghe_MultiTenant\\WebBanDoCongNghe\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

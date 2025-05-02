@@ -42,6 +42,7 @@ namespace WebBanDoCongNghe.Service
             {
                 new Claim(JwtRegisteredClaimNames.Sub, User.Id),
                 new Claim(JwtRegisteredClaimNames.Email, User.Email),
+                new Claim("TenantId", User.TenantId.ToString()),
             };
             var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
             var tokenDescriptor = new SecurityTokenDescriptor

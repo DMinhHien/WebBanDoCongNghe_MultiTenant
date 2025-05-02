@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using WebBanDoCongNghe.Interface;
 namespace WebBanDoCongNghe.Models
 {
     [Table("Product")]
-    public class Product
+    public class Product : ITenantEntity
     {
         [Key]
         public string id { get; set; }
@@ -16,5 +17,6 @@ namespace WebBanDoCongNghe.Models
         public string status { get; set; }
         public string description { get; set; }
         public double rating { get; set; }
+        public string TenantId { get; set; }
     }
 }

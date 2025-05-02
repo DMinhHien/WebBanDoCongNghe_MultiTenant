@@ -8,6 +8,7 @@ using WebBanDoCongNghe.Interface;
 using WebBanDoCongNghe.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
+using WebBanDoCongNghe.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -94,7 +95,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<TenantMiddleware>();
 app.UseHttpsRedirection();
 app.UseCors(ops => ops.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 app.UseAuthentication();

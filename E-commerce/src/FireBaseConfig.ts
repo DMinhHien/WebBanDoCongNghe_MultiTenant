@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB_-expS6SNBxaFEn15BIt64hp6az1Oa9c",
-  authDomain: "le-gallerie.firebaseapp.com",
-  projectId: "le-gallerie",
-  storageBucket: "le-gallerie.appspot.com",
-  messagingSenderId: "807957578621",
-  appId: "1:807957578621:web:48159df5e465565d3f0214",
-  measurementId: "G-1ZKGW4LES5"
+  apiKey: "AIzaSyCEnQxAyFT6vBVYiOrnSxRZhDudHDXeXpU",
+  authDomain: "webbandocongnghe-ad282.firebaseapp.com",
+  databaseURL: "https://webbandocongnghe-ad282-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "webbandocongnghe-ad282",
+  storageBucket: "webbandocongnghe-ad282.firebasestorage.app",
+  messagingSenderId: "128230412321",
+  appId: "1:128230412321:web:44d577849ca91986bad360",
+  measurementId: "G-HVR5S3JH05"
 };
 const app = initializeApp(firebaseConfig);
 export const storage = getStorage(app);

@@ -57,7 +57,9 @@ namespace WebBanDoCongNghe.Service
             }
 
             // If no tenant found, return default
-            return _configuration["DefaultTenantId"];
+            var defaultTenant = _configuration["DefaultTenantId"];
+            Console.WriteLine($"Using DefaultTenantId from configuration: {defaultTenant}");
+            return defaultTenant;
         }
 
         public void SetCurrentTenant(string tenantId)

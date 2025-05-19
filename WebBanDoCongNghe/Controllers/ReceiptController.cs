@@ -6,6 +6,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebBanDoCongNghe.Controllers
 {
@@ -98,11 +99,11 @@ namespace WebBanDoCongNghe.Controllers
                     rd.id,
                     rd.idProduct,
                     rd.quantity,
-                    Image = _context.Products.Where(p => p.id == rd.idProduct)
+                    Image = _context.Products.IgnoreQueryFilters().Where(p => p.id == rd.idProduct)
                             .Select(p => p.image).FirstOrDefault(),
-                    UnitPrice = _context.Products.Where(p => p.id == rd.idProduct)
+                    UnitPrice = _context.Products.IgnoreQueryFilters().Where(p => p.id == rd.idProduct)
                             .Select(p => p.unitPrice).FirstOrDefault(),
-                    ProductName = _context.Products.Where(p => p.id == rd.idProduct)
+                    ProductName = _context.Products.IgnoreQueryFilters().Where(p => p.id == rd.idProduct)
                             .Select(p => p.productName).FirstOrDefault()
                 }).ToList();
             return Json(result);
@@ -119,13 +120,13 @@ namespace WebBanDoCongNghe.Controllers
                     TotalAmount = _context.ReceiptDetails
                 .Where(rd => rd.idReceipt == receipt.id)
                 .Join(
-                    _context.Products,
+                    _context.Products.IgnoreQueryFilters(),
                     rd => rd.idProduct,
                     p => p.id,
                     (rd, p) => new { rd.quantity, p.unitPrice } // Gộp quantity và unitPrice
                 )
                 .Sum(item => item.quantity * item.unitPrice),
-                    ShopName = _context.ReceiptDetails
+                    ShopName = _context.ReceiptDetails.IgnoreQueryFilters()
                         .Where(rd => rd.idReceipt == receipt.id)
                         .OrderBy(rd => rd.id) // Lấy ReceiptDetail đầu tiên
                         .Select(rd => _context.Products
@@ -154,7 +155,7 @@ namespace WebBanDoCongNghe.Controllers
                     rd.idReceipt,
                     rd.idProduct,
                     rd.quantity,
-                    Product = _context.Products
+                    Product = _context.Products.IgnoreQueryFilters()
                         .Where(p => p.id == rd.idProduct)
                         .Select(p => new
                         {
@@ -190,7 +191,7 @@ namespace WebBanDoCongNghe.Controllers
                             AccountName=_context.Users.Where(x=>x.Id==r.userId).Select(x=>x.AccountName).FirstOrDefault(),
                         }).FirstOrDefault(),
                     // Lấy thông tin Product
-                    Product = _context.Products
+                    Product = _context.Products.IgnoreQueryFilters()
                         .Where(p => p.id == receiptDetail.idProduct && p.idShop == shopId)
                         .Select(p => new
                         {

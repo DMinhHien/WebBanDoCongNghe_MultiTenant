@@ -32,7 +32,11 @@ namespace WebBanDoCongNghe.Middleware
             }
             catch (Exception ex)
             {
-                // Log the error
+                Console.WriteLine($"Tenant middleware error: {ex.Message}\n{ex.StackTrace}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner exception: {ex.InnerException.Message}");
+                }
                 context.Response.StatusCode = 500;
                 await context.Response.WriteAsync("An error occurred processing the tenant context.");
             }

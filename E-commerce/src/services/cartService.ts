@@ -7,7 +7,8 @@ interface Cart {
   }
 
 export async function fetchCartDetails(userId: string): Promise<CartDetail[]> {
-    const response = await fetch(`https://localhost:7183/Cart/getListUse/${userId}`);
+    const token = localStorage.getItem("token")
+    const response = await fetch(`https://localhost:7183/Cart/getListUse/${userId}`, { headers: { Authorization: `Bearer ${token}`, } });
     if (!response.ok) {
       throw new Error('Không thể lấy danh sách sản phẩm trong giỏ hàng');
     }
@@ -56,7 +57,8 @@ export const deleteCartItem=async(id:string)=>{
 
 export const getCartId=async(id:string)=>{
   try {
-    const res=await axios.post(`https://localhost:7183/Cart/getCartId/${id}`)
+    const token =localStorage.getItem("token")
+    const res=await axios.post(`https://localhost:7183/Cart/getCartId/${id}`, { headers: { Authorization: `Bearer ${token}`, } })
     return res.data
   } catch (error) {
     console.error("Không thể lấy cartId", error);

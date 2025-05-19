@@ -6,6 +6,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
 using WebBanDoCongNghe.Service;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebBanDoCongNghe.Controllers
 {
@@ -77,7 +78,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUse/{productId}")]
         public IActionResult getListUse([FromRoute] string productId)
         {
-            var result = _context.Comments.AsQueryable().Where(x=>x.productId == productId).
+            var result = _context.Comments.IgnoreQueryFilters().AsQueryable().Where(x=>x.productId == productId).
                  Select(d => new
                  {
                      id = d.id,

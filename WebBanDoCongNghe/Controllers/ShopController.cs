@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
+using WebBanDoCongNghe.Service;
+using WebBanDoCongNghe.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebBanDoCongNghe.Controllers
 {
@@ -13,10 +16,12 @@ namespace WebBanDoCongNghe.Controllers
     public class ShopController : Controller
     {
         private readonly ProductDbContext _context;
+        private readonly ITenantService tenantService;
         // GET: ProductController
-        public ShopController(ProductDbContext context)
+        public ShopController(ProductDbContext context, ITenantService tenantService    )
         {
             _context = context;
+            this.tenantService = tenantService;
         }
 
         // POST: ProductController/Create
@@ -27,6 +32,8 @@ namespace WebBanDoCongNghe.Controllers
             var model = JsonConvert.DeserializeObject<Shop>(json.GetValue("data").ToString());
             model.id = Guid.NewGuid().ToString().Substring(0, 10);
             model.rating = 0;
+            var tenantId = tenantService.GetCurrentTenantId();
+            model.TenantId = tenantId;
             _context.Shops.Add(model);
             _context.SaveChanges();
             return Json(model);
@@ -65,7 +72,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUse")]
         public IActionResult getListUse()
         {
-            var result = _context.Shops.AsQueryable().
+            var result = _context.Shops.IgnoreQueryFilters().AsQueryable().
                  Select(d => new
                  {
                      d.id,
@@ -80,7 +87,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getElementById/{id}")]
         public IActionResult getElementById([FromRoute] string id)
         {
-            var model = _context.Shops.SingleOrDefault(x=>x.id == id);
+            var model = _context.Shops.IgnoreQueryFilters().SingleOrDefault(x=>x.id == id);
             return Json(model);
         }
         [HttpGet("getElementByUserId/{id}")]

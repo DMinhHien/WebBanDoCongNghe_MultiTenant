@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Authorization;
 using System.Net.WebSockets;
 using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
 namespace WebBanDoCongNghe.Controllers
 {
     [ApiController]
@@ -82,14 +83,14 @@ namespace WebBanDoCongNghe.Controllers
                     cart.userId,
                     Shops = _context.CartDetails
                         .Where(rd => rd.idCart == cart.id)
-                        .GroupBy(rd => _context.Products
+                        .GroupBy(rd => _context.Products.IgnoreQueryFilters()
                                             .Where(p => p.id == rd.idProduct)
                                             .Select(p => p.idShop)
                                             .FirstOrDefault())
                         .Select(group => new
                         {
                             ShopId = group.Key,
-                            ShopInfo = _context.Shops
+                            ShopInfo = _context.Shops.IgnoreQueryFilters()
                                 .Where(s => s.id == group.Key)
                                 .Select(s => new
                                 {
@@ -101,7 +102,7 @@ namespace WebBanDoCongNghe.Controllers
                                 rd.id,
                                 rd.idProduct,
                                 rd.quantity,
-                                ProductInfo = _context.Products
+                                ProductInfo = _context.Products.IgnoreQueryFilters()
                                     .Where(p => p.id == rd.idProduct)
                                     .Select(p => new
                                     {

@@ -39,7 +39,7 @@ export default function CartPage() {
   useEffect(() => {
     if (user) {
       getCarts(user?.id as string).then((data) => {
-        setCarts(data[0]);
+        setCarts(data);
         updateTotal();
       });
     }

@@ -20,7 +20,10 @@ namespace WebBanDoCongNghe.Service
             {
                 new Claim(JwtRegisteredClaimNames.Sub, User.Id),
                 new Claim(JwtRegisteredClaimNames.Email, User.Email),
+                new Claim("TenantId", User.TenantId.ToString()),
+               
             };
+            Console.WriteLine($"Using TenantId from User: {User.TenantId.ToString()}");
             claims.AddRange(userRole.Select(role => new Claim(ClaimTypes.Role, role)));
             var creds= new SigningCredentials(_key,SecurityAlgorithms.HmacSha512Signature);
             var tokenDescriptor = new SecurityTokenDescriptor

@@ -15,6 +15,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using WebBanDoCongNghe.Interface;
 using System.Data;
+using WebBanDoCongNghe.Service;
 
 namespace WebBanDoCongNghe.Controllers
 {
@@ -28,9 +29,11 @@ namespace WebBanDoCongNghe.Controllers
         private readonly SignInManager<UserManage> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ITokenService _tokenService;
+        private readonly ITenantService _tenantService;
         // GET: ProductController
         public UserController(ProductDbContext context, UserManager<UserManage> userManager,
-            SignInManager<UserManage> signInManager, ITokenService tokenService, RoleManager<IdentityRole> roleManager)
+            SignInManager<UserManage> signInManager, ITokenService tokenService,
+            RoleManager<IdentityRole> roleManager, ITenantService tenantService)
         {
             _userManager = userManager;
             _context = context;
@@ -38,6 +41,7 @@ namespace WebBanDoCongNghe.Controllers
             _signInManager = signInManager;
             _tokenService = tokenService;
             _roleManager = roleManager;
+            _tenantService = tenantService;
         }
 
         // POST: ProductController/Create
@@ -188,7 +192,8 @@ namespace WebBanDoCongNghe.Controllers
                     AccountName = model.AccountName,
                     birthDate=model.BirthDate,
                     Address = model.Address,
-                    PhoneNumber=model.Phone
+                    PhoneNumber=model.Phone,
+                    TenantId = _tenantService.GenerateNewTenantId()
 
                 };
 

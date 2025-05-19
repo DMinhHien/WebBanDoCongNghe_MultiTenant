@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebBanDoCongNghe.Controllers
 {
@@ -58,7 +59,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUse")]
         public IActionResult getListUse()
         {
-            var result = _context.Categories.AsQueryable().
+            var result = _context.Categories.IgnoreQueryFilters().AsQueryable().
                  Select(d => new
                  {
                      id = d.id,

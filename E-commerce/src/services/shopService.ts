@@ -53,14 +53,16 @@ export const editShop = async (shop: ShopDetails) => {
 }
 
 export async function getShopByUserId(userId: string): Promise<Shop | null> {
-  const response = await fetch(`https://localhost:7183/Shop/getElementByUserId/${userId}`);
+  const token = localStorage.getItem("token")
+  const response = await fetch(`https://localhost:7183/Shop/getElementByUserId/${userId}`, { headers: { Authorization: `Bearer ${token}`, } });
   if (response.ok) {
     return response.json();
   }
   return null;
 }
 export async function getShopId(userId: string): Promise<string> {
-  const response = await fetch(`https://localhost:7183/Shop/getShopId/${userId}`);
+  const token = localStorage.getItem("token")
+  const response = await fetch(`https://localhost:7183/Shop/getShopId/${userId}`, { headers: { Authorization: `Bearer ${token}`, } });
   if (response.ok) {
     const result = await response.json();
     return result as string; // Ép kiểu rõ ràng

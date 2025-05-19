@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System.Net.WebSockets;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 namespace WebBanDoCongNghe.Controllers
 {
     [ApiController]
@@ -78,7 +79,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUse")]
         public IActionResult getListUse()
         {
-            var result = _context.Products.AsQueryable().
+            var result = _context.Products.IgnoreQueryFilters().AsQueryable().
                  Select(d => new
                  {
                      d.id,
@@ -100,7 +101,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUseCategory/{categoryId}")]
         public IActionResult getListUseCategory([FromRoute] string categoryId)
         {
-            var result = _context.Products.AsQueryable().Where(x=>x.categoryId== categoryId).
+            var result = _context.Products.IgnoreQueryFilters().AsQueryable().Where(x=>x.categoryId== categoryId).
                  Select(d => new
                  {
                      d.id,
@@ -112,7 +113,7 @@ namespace WebBanDoCongNghe.Controllers
                      d.image,
                      d.categoryId,
                      d.rating,
-                     categoryName = _context.Categories
+                     categoryName = _context.Categories.IgnoreQueryFilters()
                         .Where(x => x.id == d.categoryId)
                         .Select(s => s.name)
                          .FirstOrDefault()
@@ -122,7 +123,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUseShop/{shopId}")]
         public IActionResult getListUseShop([FromRoute] string shopId)
         {
-            var result = _context.Products.AsQueryable().Where(x => x.idShop == shopId).
+            var result = _context.Products.IgnoreQueryFilters().AsQueryable().Where(x => x.idShop == shopId).
                  Select(d => new
                  {
                      d.id,
@@ -134,7 +135,7 @@ namespace WebBanDoCongNghe.Controllers
                      d.image,
                      d.categoryId,
                      d.rating,
-                     categoryName = _context.Categories
+                     categoryName = _context.Categories.IgnoreQueryFilters()
                         .Where(x => x.id == d.categoryId)
                         .Select(s => s.name)
                          .FirstOrDefault()

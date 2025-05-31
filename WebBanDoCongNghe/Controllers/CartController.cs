@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Net.WebSockets;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using WebBanDoCongNghe.Migrations;
 namespace WebBanDoCongNghe.Controllers
 {
     [ApiController]
@@ -47,9 +48,20 @@ namespace WebBanDoCongNghe.Controllers
         public ActionResult EditCartDetail([FromBody] JObject json)
         {
             var model = JsonConvert.DeserializeObject<CartDetail>(json.GetValue("data").ToString());
-            _context.CartDetails.Update(model);
+            var existingCartDetail = _context.CartDetails.FirstOrDefault(cd => cd.id == model.id);
+
+            if (existingCartDetail == null)
+            {
+                return NotFound("Cart detail not found");
+            }
+
+            // Update only the quantity field
+            existingCartDetail.quantity = model.quantity;
+
+            // Save the changes; TenantId and other fields remain unchanged
             _context.SaveChanges();
-            return Json(model);
+
+            return Json(existingCartDetail);
         }
         [Authorize]
         [HttpPost("deleteCartDetail/{id}")]
@@ -138,7 +150,7 @@ namespace WebBanDoCongNghe.Controllers
             _context.SaveChanges();
             return Json(model);
         }
-        [HttpPost("getCartId/{userId}")]
+        [HttpGet("getCartId/{userId}")]
         public IActionResult getCartId([FromRoute] string userId)
         {
             var result=_context.Carts.AsQueryable().Where(x=>x.userId == userId).Select(x=>x.id);

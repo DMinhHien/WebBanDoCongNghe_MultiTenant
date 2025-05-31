@@ -41,7 +41,8 @@ const ProductDetail: React.FC = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get<Product>(`https://localhost:7183/Product/getElementById/${id}`);
+        const token=localStorage.getItem("token")
+        const response = await axios.get<Product>(`https://localhost:7183/Product/getElementById/${id}`,{headers:{Authorization:`Bearer ${token}`}});
         setProduct( response.data);
         console.log(id)
         setLoading(false);

@@ -37,10 +37,29 @@ namespace WebBanDoCongNghe.Controllers
         [HttpPost("edit")]
         public ActionResult Edit([FromBody] JObject json)
         {
-            var model = JsonConvert.DeserializeObject<Product>(json.GetValue("data").ToString());
-            _context.Products.Update(model);
+            // Deserialize the incoming changes into a temporary object.
+            var inputProduct = JsonConvert.DeserializeObject<Product>(json.GetValue("data").ToString());
+
+            // Retrieve the existing product from the database.
+            var productToUpdate = _context.Products.SingleOrDefault(p => p.id == inputProduct.id);
+            if (productToUpdate == null)
+            {
+                return NotFound("Product not found");
+            }
+
+            // Update only the properties that are allowed to change.
+            productToUpdate.productName = inputProduct.productName ?? productToUpdate.productName;
+            productToUpdate.unitPrice = inputProduct.unitPrice;
+            productToUpdate.description = inputProduct.description ?? productToUpdate.description;
+            productToUpdate.quantity = inputProduct.quantity;
+            productToUpdate.status = inputProduct.status ?? productToUpdate.status;
+            productToUpdate.image = inputProduct.image ?? productToUpdate.image;
+            productToUpdate.categoryId = inputProduct.categoryId ?? productToUpdate.categoryId;
+            productToUpdate.rating = inputProduct.rating;
+            // Do not update the TenantId.
+
             _context.SaveChanges();
-            return Json(model);
+            return Json(productToUpdate);
         }
 
         [Authorize]
@@ -123,7 +142,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getListUseShop/{shopId}")]
         public IActionResult getListUseShop([FromRoute] string shopId)
         {
-            var result = _context.Products.IgnoreQueryFilters().AsQueryable().Where(x => x.idShop == shopId).
+            var result = _context.Products.IgnoreQueryFilters().IgnoreQueryFilters().AsQueryable().Where(x => x.idShop == shopId).
                  Select(d => new
                  {
                      d.id,
@@ -194,7 +213,7 @@ namespace WebBanDoCongNghe.Controllers
         [HttpGet("getElementById/{id}")]
         public IActionResult getElementById([FromRoute] string id)
         {
-            var model = _context.Products
+            var model = _context.Products.IgnoreQueryFilters()
                 .Where(m => m.id == id)
                 .Select(d => new
                 {

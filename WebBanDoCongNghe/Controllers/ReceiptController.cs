@@ -35,7 +35,7 @@ namespace WebBanDoCongNghe.Controllers
             _context.Receipts.Add(receipt);
             foreach (var detail in receiptDetails)
             {
-                var product = _context.Products.FirstOrDefault(x => x.id == detail.idProduct);
+                var product = _context.Products.IgnoreQueryFilters().FirstOrDefault(x => x.id == detail.idProduct);
                 product.quantity = product.quantity - detail.quantity;
                 detail.id = Guid.NewGuid().ToString(); 
                 detail.idReceipt = receipt.id;

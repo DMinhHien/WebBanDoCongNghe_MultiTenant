@@ -58,7 +58,7 @@ export const deleteCartItem=async(id:string)=>{
 export const getCartId=async(id:string)=>{
   try {
     const token =localStorage.getItem("token")
-    const res=await axios.post(`https://localhost:7183/Cart/getCartId/${id}`, { headers: { Authorization: `Bearer ${token}`, } })
+    const res=await axios.get(`https://localhost:7183/Cart/getCartId/${id}`, { headers: { Authorization: `Bearer ${token}`, } })
     return res.data
   } catch (error) {
     console.error("Không thể lấy cartId", error);

@@ -33,7 +33,6 @@ export default function CreateUser() {
          var id=user.id
           var role="User"
           addRole(id,role)
-          createCart(id)
       nav("/admin/QuanLyUser");
     });
   };

@@ -99,7 +99,7 @@
     "ContainingType": "WebBanDoCongNghe.Controllers.CartController",
     "Method": "getCartId",
     "RelativePath": "Cart/getCartId/{userId}",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

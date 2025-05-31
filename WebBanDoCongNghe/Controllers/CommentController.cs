@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
 using WebBanDoCongNghe.Service;
 using Microsoft.EntityFrameworkCore;
+using WebBanDoCongNghe.Migrations;
 
 namespace WebBanDoCongNghe.Controllers
 {
@@ -43,10 +44,23 @@ namespace WebBanDoCongNghe.Controllers
         public ActionResult Edit([FromBody] JObject json)
         {
             var model = JsonConvert.DeserializeObject<Comment>(json.GetValue("data").ToString());
-            _context.Comments.Update(model);
+            var existingComment = _context.Comments.SingleOrDefault(c => c.id == model.id);
+            if (existingComment == null)
+            {
+                return NotFound("Comment not found");
+            }
+
+            // Update only the content and rating; leave TenantId (and others) unchanged
+            existingComment.content = model.content;
+            existingComment.rating = model.rating;
+
+            // Save the changes
             _context.SaveChanges();
-            _ratingService.UpdateProductAndShopRating(model.productId);
-            return Json(model);
+
+            // Update the ratings for the product/shop (if needed)
+            _ratingService.UpdateProductAndShopRating(existingComment.productId);
+
+            return Json(existingComment);
         }
         [HttpGet("getElementById/{id}")]
         public IActionResult getElementById([FromRoute] string id)

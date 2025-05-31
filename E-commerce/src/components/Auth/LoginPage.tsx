@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Box, TextField, Button, Typography, Container, Paper, Link } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
+import { getCarts, createCart } from '../../services/cartService'; 
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -24,6 +25,10 @@ const LoginPage: React.FC = () => {
         const data = await response.json();
         login(data.user, data.token); // Cập nhật trạng thái đăng nhập
         localStorage.setItem("token", data.token); // Lưu token vào localStorage
+        const carts = await getCarts(data.user.id);
+        if (!carts || carts.length === 0) {
+          await createCart(data.user.id);
+        }
         if (data.user.role === 'Admin') {
           navigate('/admin'); // Điều hướng đến trang admin
         } else {

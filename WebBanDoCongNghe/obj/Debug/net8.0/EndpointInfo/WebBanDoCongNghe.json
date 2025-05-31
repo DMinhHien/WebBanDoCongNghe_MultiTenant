@@ -264,7 +264,7 @@
       }
     },
     "/Cart/getCartId/{userId}": {
-      "post": {
+      "get": {
         "tags": [
           "Cart"
         ],

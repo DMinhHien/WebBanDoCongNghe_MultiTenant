@@ -1,4 +1,5 @@
-﻿using WebBanDoCongNghe.DBContext;
+﻿using Microsoft.EntityFrameworkCore;
+using WebBanDoCongNghe.DBContext;
 
 namespace WebBanDoCongNghe.Service
 {
@@ -13,7 +14,7 @@ namespace WebBanDoCongNghe.Service
 
         public void UpdateProductAndShopRating(string productId)
         {
-            var product = _context.Products.AsQueryable().Where(x => x.id == productId).FirstOrDefault();
+            var product = _context.Products.AsQueryable().IgnoreQueryFilters().Where(x => x.id == productId).FirstOrDefault();
             var productComments = _context.Comments.Where(x => x.productId == product.id && x.rating!=0).ToList();
             double average = 0;
 
@@ -26,7 +27,7 @@ namespace WebBanDoCongNghe.Service
             _context.Products.Update(product);
 
             // Update shop rating
-            var shop = _context.Shops.AsQueryable().Where(x => x.id == product.idShop).FirstOrDefault();
+            var shop = _context.Shops.AsQueryable().IgnoreQueryFilters().Where(x => x.id == product.idShop).FirstOrDefault();
             var shopProducts = _context.Products.AsQueryable().Where(x => x.idShop == shop.id && x.rating!=0).ToList();
             average = 0;
 

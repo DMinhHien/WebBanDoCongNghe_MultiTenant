@@ -54,16 +54,10 @@ namespace WebBanDoCongNghe.Controllers
             {
                 return NotFound("Shop not found");
             }
-
-            // Update only fields that are allowed to be modified by admin
             shopToUpdate.name = inputShop.name ?? shopToUpdate.name;
             shopToUpdate.address = inputShop.address ?? shopToUpdate.address;
             shopToUpdate.image = inputShop.image ?? shopToUpdate.image;
             shopToUpdate.rating = inputShop.rating; // if admin is allowed to update rating
-
-            // Do NOT change TenantId, so it remains the same
-            // _context.Shops.Update(model); // No longer needed; shopToUpdate is tracked
-
             _context.SaveChanges();
             return Json(shopToUpdate);
         }

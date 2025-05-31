@@ -46,7 +46,8 @@ export const getListProduct= async(id:string) =>{
 
 export const getProduct=async(id:string)=>{
     try {
-        const res= await axios.get<Product>(`https://localhost:7183/Product/getElementById/${id}`)
+        const token=localStorage.getItem("token")
+        const res= await axios.get<Product>(`https://localhost:7183/Product/getElementById/${id}`,{headers:{Authorization:`Bearer ${token}`}})
         return res.data
     } catch (error) {
         throw error

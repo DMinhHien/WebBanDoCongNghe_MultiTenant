@@ -104,7 +104,8 @@ namespace WebBanDoCongNghe.Controllers
                     UnitPrice = _context.Products.IgnoreQueryFilters().Where(p => p.id == rd.idProduct)
                             .Select(p => p.unitPrice).FirstOrDefault(),
                     ProductName = _context.Products.IgnoreQueryFilters().Where(p => p.id == rd.idProduct)
-                            .Select(p => p.productName).FirstOrDefault()
+                            .Select(p => p.productName).FirstOrDefault(),
+                    //ShopName = _context.Products.IgnoreQueryFilters().Where(p => p.id == rd.idProduct)
                 }).ToList();
             return Json(result);
         }
@@ -126,17 +127,17 @@ namespace WebBanDoCongNghe.Controllers
                     (rd, p) => new { rd.quantity, p.unitPrice } // Gộp quantity và unitPrice
                 )
                 .Sum(item => item.quantity * item.unitPrice),
-                    ShopName = _context.ReceiptDetails.IgnoreQueryFilters()
-                        .Where(rd => rd.idReceipt == receipt.id)
-                        .OrderBy(rd => rd.id) // Lấy ReceiptDetail đầu tiên
-                        .Select(rd => _context.Products
-                            .Where(p => p.id == rd.idProduct)
-                            .Select(p => _context.Shops
-                                .Where(s => s.id == p.idShop) // Truy vấn Shop dựa trên idShop
-                                .Select(s => s.name)
-                                .FirstOrDefault())
-                            .FirstOrDefault())
-                        .FirstOrDefault() // ShopName của ReceiptDetail đầu tiên
+                    //ShopName = _context.ReceiptDetails
+                    //    .Where(rd => rd.idReceipt == receipt.id)
+                    //    .OrderBy(rd => rd.id) // Lấy ReceiptDetail đầu tiên
+                    //    .Select(rd => _context.Products.IgnoreQueryFilters()
+                    //        .Where(p => p.id == rd.idProduct)
+                    //        .Select(p => _context.Shops.IgnoreQueryFilters()
+                    //            .Where(s => s.id == p.idShop) // Truy vấn Shop dựa trên idShop
+                    //            .Select(s => s.name)
+                    //            .FirstOrDefault())
+                    //        .FirstOrDefault())
+                    //    .FirstOrDefault() // ShopName của ReceiptDetail đầu tiên
                 })
                 .ToList();
 

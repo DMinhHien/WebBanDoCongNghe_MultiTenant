@@ -15,7 +15,7 @@ namespace WebBanDoCongNghe.Service
         public void UpdateProductAndShopRating(string productId)
         {
             var product = _context.Products.AsQueryable().IgnoreQueryFilters().Where(x => x.id == productId).FirstOrDefault();
-            var productComments = _context.Comments.Where(x => x.productId == product.id && x.rating!=0).ToList();
+            var productComments = _context.Comments.IgnoreQueryFilters().Where(x => x.productId == product.id && x.rating!=0).ToList();
             double average = 0;
 
             foreach (var comment in productComments)
@@ -25,10 +25,10 @@ namespace WebBanDoCongNghe.Service
             average = productComments.Count() > 0 ? average / productComments.Count() : 0;
             product.rating = average;
             _context.Products.Update(product);
-
+            _context.SaveChanges();
             // Update shop rating
             var shop = _context.Shops.AsQueryable().IgnoreQueryFilters().Where(x => x.id == product.idShop).FirstOrDefault();
-            var shopProducts = _context.Products.AsQueryable().Where(x => x.idShop == shop.id && x.rating!=0).ToList();
+            var shopProducts = _context.Products.AsQueryable().IgnoreQueryFilters().Where(x => x.idShop == shop.id && x.rating!=0).ToList();
             average = 0;
 
             foreach (var productItem in shopProducts)

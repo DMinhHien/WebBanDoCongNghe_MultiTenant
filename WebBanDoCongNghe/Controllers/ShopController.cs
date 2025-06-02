@@ -61,6 +61,26 @@ namespace WebBanDoCongNghe.Controllers
             _context.SaveChanges();
             return Json(shopToUpdate);
         }
+        [Authorize]
+        [HttpPost("edit_admin")]
+        public ActionResult AdminEdit([FromBody] JObject json)
+        {
+            // Deserialize data into a temporary shop object
+            var inputShop = JsonConvert.DeserializeObject<Shop>(json.GetValue("data").ToString());
+
+            // Retrieve the existing shop from the database
+            var shopToUpdate = _context.Shops.IgnoreQueryFilters().SingleOrDefault(s => s.id == inputShop.id);
+            if (shopToUpdate == null)
+            {
+                return NotFound("Shop not found");
+            }
+            shopToUpdate.name = inputShop.name ?? shopToUpdate.name;
+            shopToUpdate.address = inputShop.address ?? shopToUpdate.address;
+            shopToUpdate.image = inputShop.image ?? shopToUpdate.image;
+            shopToUpdate.rating = inputShop.rating; // if admin is allowed to update rating
+            _context.SaveChanges();
+            return Json(shopToUpdate);
+        }
 
         // POST: ShopController/Delete/5
         [Authorize]

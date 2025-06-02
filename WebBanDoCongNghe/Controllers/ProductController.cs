@@ -239,5 +239,38 @@ namespace WebBanDoCongNghe.Controllers
             }
             return Json(model);
         }
+        [Authorize]
+        [HttpPost("delete_admin")]
+        public ActionResult DeleteAdmin([FromBody] JObject json)
+        {
+            var id = (json.GetValue("id").ToString());
+            var result = _context.Products.IgnoreQueryFilters().SingleOrDefault(p => p.id == id);
+            _context.Products.Remove(result);
+            var receiptDetail = _context.ReceiptDetails.IgnoreQueryFilters().AsQueryable().Where(p => p.idProduct == id);
+            if (receiptDetail != null)
+            {
+                foreach (var item in receiptDetail)
+                {
+                    int count = _context.ReceiptDetails.IgnoreQueryFilters().AsQueryable().Where(p => p.idReceipt == item.idReceipt).Count();
+                    if (count == 1)
+                    {
+                        var receipt = _context.Receipts.IgnoreQueryFilters().FirstOrDefault(x => x.id == item.idReceipt);
+                        _context.Receipts.Remove(receipt);
+                    }
+                    _context.ReceiptDetails.Remove(item);
+                }
+            }
+            var cartDetail = _context.CartDetails.IgnoreQueryFilters().AsQueryable().Where(p => p.idProduct == id);
+            if (cartDetail != null)
+            {
+                foreach (var item in cartDetail)
+                {
+                    _context.CartDetails.Remove(item);
+                }
+            }
+            _context.SaveChanges();
+            return Json(result);
+
+        }
     }
 }

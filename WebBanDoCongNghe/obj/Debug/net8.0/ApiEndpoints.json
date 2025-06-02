@@ -352,6 +352,22 @@
   },
   {
     "ContainingType": "WebBanDoCongNghe.Controllers.ProductController",
+    "Method": "DeleteAdmin",
+    "RelativePath": "Product/delete_admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "json",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebBanDoCongNghe.Controllers.ProductController",
     "Method": "Edit",
     "RelativePath": "Product/edit",
     "HttpMethod": "POST",
@@ -704,6 +720,22 @@
     "ContainingType": "WebBanDoCongNghe.Controllers.ShopController",
     "Method": "Edit",
     "RelativePath": "Shop/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "json",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebBanDoCongNghe.Controllers.ShopController",
+    "Method": "AdminEdit",
+    "RelativePath": "Shop/edit_admin",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
